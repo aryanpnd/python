@@ -1,0 +1,62 @@
+name = input("Enter your name: \n\n")
+for i in name:
+
+    c = i.upper()
+    if (c == "A"):
+        print("  oooooo  \n  o    o  \n  oooooo  \n  o    o  \n  o    o  \n\n")
+    elif (c == "B"):
+        print("  oooooo  \n  o    o  \n  ooooo   \n  o    o  \n  oooooo  \n\n")
+    elif (c == "C"):
+        print("  oooooo  \n  o       \n  o       \n  o       \n  oooooo  \n\n")
+    elif (c == "D"):
+        print("  ooooo   \n  o    o  \n  o    o  \n  o    o  \n  ooooo   \n\n")
+    elif (c == "E"):
+        print("  oooooo  \n  o       \n  ooooo   \n  o       \n  oooooo  \n\n")
+    elif (c == "F"):
+        print("  oooooo  \n  o       \n  ooooo   \n  o       \n  o       \n\n")
+    elif (c == "G"):
+        print("  oooooo  \n  o       \n  ooooo   \n  o    o  \n  ooooo   \n\n")
+    elif (c == "H"):
+        print("  o    o  \n  o    o  \n  oooooo  \n  o    o  \n  o    o  \n\n")
+    elif (c == "I"):
+        print("  oooooo  \n    oo    \n    oo    \n    oo    \n  oooooo  \n\n")
+    elif (c == "J"):
+        print("  oooooo  \n    oo    \n    oo    \n  o oo    \n  oooo    \n\n")
+    elif (c == "K"):
+        print("  o   o   \n  o  o    \n  oo      \n  o  o    \n  o   o   \n\n")
+    elif (c == "L"):
+        print("  o       \n  o       \n  o       \n  o       \n  oooooo  \n\n")
+    elif (c == "M"):
+        print("  o    o  \n  oo  oo  \n  o oo o  \n  o    o  \n  o    o  \n\n")
+    elif (c == "N"):
+        print("  o    o  \n  oo   o  \n  o o  o  \n  o  o o  \n  o   oo  \n\n")
+    elif (c == "O"):
+        print("  oooooo  \n  o    o  \n  o    o  \n  o    o  \n  oooooo  \n\n")
+    elif (c == "P"):
+        print("  oooooo  \n  o    o  \n  oooooo  \n  o       \n  o       \n\n")
+    elif (c == "Q"):
+        print("  oooooo  \n  o    o  \n  o o  o  \n  o  o o  \n  oooooo  \n\n")
+    elif (c == "R"):
+        print("  oooooo  \n  o    o  \n  o oo   \n  o   o   \n  o    o  \n\n")
+    elif (c == "S"):
+        print("  oooooo  \n  o       \n  oooooo  \n       o  \n  oooooo  \n\n")
+    elif (c == "T"):
+        print("  oooooo  \n    oo    \n    oo    \n    oo    \n    oo    \n\n")
+    elif (c == "U"):
+        print("  o    o  \n  o    o  \n  o    o  \n  o    o  \n  oooooo  \n\n")
+    elif (c == "V"):
+        print("  o    o  \n  o    o  \n  o    o  \n   o  o   \n    oo    \n\n")
+    elif (c == "W"):
+        print("  o    o  \n  o    o  \n  o oo o  \n  oo  oo  \n  o    o  \n\n")
+    elif (c == "X"):
+        print("  o    o  \n   o  o   \n    oo    \n   o  o   \n  o    o  \n\n")
+    elif (c == "Y"):
+        print("  o    o  \n   o  o   \n    oo    \n    oo    \n    oo    \n\n")
+    elif (c == "Z"):
+        print("  oooooo  \n      o   \n     o    \n    o     \n  oooooo  \n\n")
+    elif (c == " "):
+        print("          \n          \n          \n          \n\n")
+    elif (c == " "):
+        print("----  ----\n\n")
+
+

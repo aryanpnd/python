@@ -1,0 +1,21 @@
+while True:
+    print('\n''        CALCULATOR.PY','\n')
+    operator = input("Enter operator:")
+    val1 = int(input("Enter first number = "))
+    val2 = int(input("Enter second number = "))
+
+    if operator == "+":
+        print("Sum is:",val1 + val2)
+    if operator == "-":
+     print("Substract is:",val1-val2)
+    if operator == "*":
+        print("Multiply is :",val1*val2)
+    if operator == "/":
+     print("Divide is:",float(val1/val2))
+     continue
+    else:
+        print('\n'' press e = exit','\n','press c = continue')
+        if input()==str('c'):
+            continue
+        else:
+            break

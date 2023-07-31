@@ -1,0 +1,10 @@
+# dictionary
+
+# print("enter your word")
+# hero = {"run": "to walk fast",
+#       "destroy": "to finish",
+#      "fun": "to enjoy",
+#     "nice": "very good"}
+
+# print(hero [input()])
+# print("thank you for using my dictionary")

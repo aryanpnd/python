@@ -1,0 +1,46 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <form onsubmit="validate()">
+        <input type="text" id="uname">
+        <input type="password" id="pass">
+        <button type="submit">submit</button>
+    </form>
+
+    <script>
+        function validate() {
+            var pass = document.getElementById("pass").value
+            var uname = document.getElementById("uname").value
+            if (pass=="") {
+                alert("password is empty")
+            }
+            if (uname==""){
+
+                alert("username is empty")
+            }
+        }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1>area of circle : <span id="area" ></span></h1>
+    <button onclick="calculate()" >Calculate</button>
+
+    <script>
+        function calculate() {
+            var pi = 3.14
+            var radius = prompt("Type radius",5)
+            document.getElementById("area").innerHTML = pi*radius**2
+        }
+    </script>
+</body>
+</html>

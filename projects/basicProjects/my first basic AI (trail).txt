@@ -1,0 +1,17 @@
+      while True :
+   print('    Hello i am harl 🤟')
+   print('python\'s AI 😊')
+   gsfves = input(str('   your please name :- '))
+   print('• hello', str(gsfves), '😊')
+   iya = input(str('  please enter your age :- '))
+   print('• so you\'re', str(iya),'yo ,😊')
+   print('good to know 😊')
+   input('     press enter')
+   print('  thanks for your info ', str(gsfves), '😊')
+   print('•   do you want to exit or continue')
+   print('c for continue')
+   print('e for exit')
+   if input() == str('c') :
+    continue
+   else :
+   break

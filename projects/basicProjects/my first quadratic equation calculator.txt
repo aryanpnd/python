@@ -1,0 +1,21 @@
+#first code for solving quadratic equations
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = (b**2) - (4*a*c)
+M = d/2
+sol1=(-b-M)/(2*a)
+sol2=(-b+M)/(2*a)
+print(sol1,sol2)
+              
+                   Or
+
+import cmath
+a = int(input('a = '))
+b = int(input('b = '))
+c = int(input('c = '))
+d = (b**2) - (4*a*c)
+sol1 = (-b-cmath.sqrt(d))/(2*a)
+sol2 = (-b+cmath.sqrt(d))/(2*a)
+print('The solution are ',(sol1,sol2))
